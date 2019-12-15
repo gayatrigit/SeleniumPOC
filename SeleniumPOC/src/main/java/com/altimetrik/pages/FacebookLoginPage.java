@@ -45,9 +45,6 @@ public class FacebookLoginPage extends FacebookBase{
 	@FindBy(xpath="//span[text()='Create an account']")
 	WebElement createAccount;
 	
-	// now we have to initialize all the object repositary/elements. have to use PageFactory
-	//using initElements used to intialize of Pagefactory
-	//all these will be initialized with driver
 	
 	public FacebookLoginPage() {
 		PageFactory.initElements(driver,this);
@@ -67,7 +64,7 @@ public class FacebookLoginPage extends FacebookBase{
 		
 		loginBTN.click();
 		
-		Thread.sleep(20000);
+		Thread.sleep(3000);
 		
 		return new FacebookHomePage();
 	}
