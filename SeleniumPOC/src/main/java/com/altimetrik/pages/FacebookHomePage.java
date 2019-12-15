@@ -1,4 +1,4 @@
-package com.altimetrik.common;
+package com.altimetrik.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -67,7 +67,7 @@ public class FacebookHomePage extends FacebookBase{
 		Actions actions = new Actions(driver);
 		actions.moveToElement(postType);
 		actions.click();
-		actions.sendKeys("Sample new2 Post Message");
+		actions.sendKeys("Sample Post Message");
 		actions.build().perform();
 		clickPost.click();
 	}

@@ -7,9 +7,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.altimetrik.common.FacebookHomePage;
-import com.altimetrik.common.FacebookLoginPage;
 import com.altimetrik.core.FacebookBase;
+import com.altimetrik.pages.FacebookHomePage;
+import com.altimetrik.pages.FacebookLoginPage;
 import com.altimetrik.util.FacebookUtil;
 
 
